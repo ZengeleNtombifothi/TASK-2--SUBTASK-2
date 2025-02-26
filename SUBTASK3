@@ -42,13 +42,10 @@ int main() {
             int decimal;
             cout << "Enter a decimal number: ";
             cin >> decimal;
-            cout << "Binary"
-representation: "<<
-decimalToBinary(decimal) << end1;
+            cout << "Binary representation: " << decimalToBinary(decimal) << endl;
         }
         else if (choice == 3) {
-            cout << "Exiting program..."
-<< end1;
+            cout << "Exiting program..."<< end1;
         }
         else {
               cout << "Invalid choice.
