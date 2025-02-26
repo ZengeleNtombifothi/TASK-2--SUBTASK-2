@@ -48,8 +48,7 @@ int main() {
             cout << "Exiting program..."<< end1;
         }
         else {
-              cout << "Invalid choice.
-please enter 1,2, or 3." << end1;
+              cout << "Invalid choice. please enter 1,2, or 3." << end1;
         }
 
         cout << "--------------------\n";
