@@ -32,7 +32,7 @@ int main() {
     do {
         // Display menu
         cout << "Conversion Menu:\n";
-        cout << "1. Decimal to Binary\n;
+        cout << "1. Decimal to Binary\n";
         cout << "2. Binary to Decimal\n";
         cout << "3. Exit\n";
         cout << "Enter your choice (1, 2, or 3): ";
@@ -45,10 +45,10 @@ int main() {
             cout << "Binary representation: " << decimalToBinary(decimal) << endl;
         }
         else if (choice == 3) {
-            cout << "Exiting program..."<< end1;
+            cout << "Exiting program..."<< endl;
         }
         else {
-              cout << "Invalid choice. please enter 1,2, or 3." << end1;
+              cout << "Invalid choice. please enter 1,2, or 3." << endl;
         }
 
         cout << "--------------------\n";
