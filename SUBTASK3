@@ -6,7 +6,7 @@ using namespace std;
 
 //Function to convert decimal to binary
 string decimalToBinary(int decimal) {
-    string binary = "",
+    string binary = "";  // 
     while (decimal > 0) {
         binary = to_string(decimal % 2) + binary;
         decimal /= 2;
