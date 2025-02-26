@@ -54,5 +54,5 @@ int main() {
         cout << "--------------------\n";
   }  while (choice != 3);
 
-    return o;
+    return 0;
 }
